@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Selection Project</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Course Selection</h1>
+
+  <div id="app">
+    <!-- Available and Selected courses will render here -->
+    <div id="available-courses" class="bucket">
+      <h2>Available Courses</h2>
+      <div class="course-list" id="available-list"></div>
+    </div>
+
+    <div id="selected-courses" class="bucket">
+      <h2>Selected Courses</h2>
+      <div class="course-list" id="selected-list"></div>
+    </div>
+  </div>
+
+  <p id="total-credit">Total Credit: 0</p>
+  
+  <script type="module" src="js/controller.js"></script>
+</body>
+</html>
